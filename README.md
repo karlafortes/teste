@@ -88,10 +88,6 @@ type your sentence like this "{{nameOfUnit}} {{nameOfUnit}} ... {{convention}} i
 
 I tried to keep the architecture simple, so I separeted it in 3 project: the main project, one to hold the business logic and one for unit tests. On them I applied some concepts to make it clean, readable and scalable, however keeping in mind the current scope and focusing on solving the problem we have now.
 
-## Licensing
-
-This project is licensed under Unlicense license. This license does not require you to take the license with you to your project.
-
 ## Contact
 
 Created by [@karlafortes](https://www.linkedin.com/in/karlafortes/) - feel free to contact me!
