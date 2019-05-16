@@ -82,8 +82,16 @@ Some important rules to make the program understands you well is to use the prop
 - to set unit values (the banana and apple on our previous example), you should simply type "{{nameOfUnit}} is {{unitValue}}". The unit value here must be a Roman numeral.
 - to set units with conventions like "banana apple Silver", you should place the convetion after all units and tell how many credits the unit worths with it. So you should
 type your sentence like this "{{nameOfUnit}} {{nameOfUnit}} ... {{convention}} is {{value}} Credits". The value here is an Arabic number. Example: "banana apple Silver is 20 Credits", being "Silver" the convention. It is possible to set only one convention by sentence.
-- to get the value of something, symple ask how much or how many credits does it worth. For example, "how much is banana apple?" or "how many credits is banana apple Silver?"
+- to get the value of something, simply ask how much or how many credits does it worth. For example, "how much is banana apple?" or "how many credits is banana apple Silver?"
 
 ## A walk inside my mind
 
 I tried to keep the architecture simple, so I separeted it in 3 project: the main project, one to hold the business logic and one for unit tests. On them I applied some concepts to make it clean, readable and scalable, however keeping in mind the current scope and focusing on solving the problem we have now.
+
+## Licensing
+
+This project is licensed under Unlicense license. This license does not require you to take the license with you to your project.
+
+## Contact
+
+Created by [@karlafortes](https://www.linkedin.com/in/karlafortes/) - feel free to contact me!
